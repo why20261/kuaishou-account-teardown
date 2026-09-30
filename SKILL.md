@@ -3,6 +3,10 @@ name: kuaishou-account-teardown
 description: 获取快手真实一手数据，逆向拆解快手平台账号，根据账号互动数据及账号作品数据，产出可复刻的运营手册。当用户提出「拆解某账号」「分析对标号」「看看XX号为什么火」「复刻这个账号的风格」「抓取快手账号数据」「竞品账号分析」「对标账号数据」「账号诊断」等需求时使用。产出结构化数据 + 互动指标 + 形态拆解 + 差距定位。支持三大能力：(1) 关键词搜索视频，可按点赞数、发布时间、视频时长筛选排序；(2) 达人作品抓取，按主页链接获取公开作品列表；(3) 视频评论分析，按视频链接获取评论内容与互动数据。
 license: MIT
 version: 1.0.0
+display_name: 🎯快手账号拆解
+display_name_en: KuaiShou Account Teardown
+description_zh: 获取快手真实一手数据，逆向拆解快手平台账号，根据账号互动数据及账号作品数据，产出可复刻的运营手册。当用户提出「拆解某账号」「分析对标号」「看看XX号为什么火」「复刻这个账号的风格」「抓取快手账号数据」「竞品账号分析」「对标账号数据」「账号诊断」等需求时使用。产出结构化数据 + 互动指标 + 形态拆解 + 差距定位。
+description_en: Obtain first-hand authentic KuaiShou data and conduct reverse analysis of Kwai accounts. Generate replicable operation manuals based on account engagement metrics and content performance data. It is triggered when users request "deconstruct a specific account", "analyze benchmark accounts", "find out why Account XX went viral", "replicate this account’s style", "crawl KuaiShou account data", "competitor account analysis", "benchmark account data", "account diagnosis" and similar requests. Output includes structured data, engagement indicators, content pattern breakdown, and gap identification.
 metadata:
   type: command
   runtime: "nodejs@16.14.0+"
